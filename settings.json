@@ -1,0 +1,34 @@
+{
+    "canvas": {
+        "canvas_url": "INSERT CANVAS URL HERE",
+        "access_token": "INSERT CANVAS API KEY HERE",
+        "save": {
+            "assignments": {
+                "stats": true,
+                "feedback": false,
+                "grade": true,
+                "file": false
+            },
+            "overall": {
+                "myScore": true,
+                "classScore": true,
+                "classScoreType": "mean",
+                "toFile": true,
+                "toConsole": false
+            }
+        },
+        "override_alias": {
+            "Homework": ["homework", "hw"],
+            "Exam": ["exam", "midterm"],
+            "Final": ["final"],
+            "Quiz": ["quiz", "quizlet"],
+            "Participation": ["attendance", "iClicker"],
+            "EC": ["extra credit", "ec"]
+        }
+    },
+    "gradescope": {
+
+    },
+    "year": 2025,
+    "term": "spring"
+}
