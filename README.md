@@ -95,4 +95,5 @@ Below is an explaination of all the policy under courses/[class name]/policy.jso
             "never_drop": [] # assignment names to never drop
         }
     }
-}```
+}
+```
