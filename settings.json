@@ -22,7 +22,7 @@
             "Exam": ["exam", "midterm"],
             "Final": ["final"],
             "Quiz": ["quiz", "quizlet"],
-            "Participation": ["attendance", "iClicker"],
+            "Participation": ["participation", "attendance", "iClicker"],
             "EC": ["extra credit", "ec"]
         }
     },
