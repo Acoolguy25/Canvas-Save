@@ -44,7 +44,8 @@ Below is an explaination of all the settings fields.
 }
 ```
 Below is an explaination of all the policy under courses/[class name]/policy.json, which only appears after running ```save.py``` once:
-```{
+```json
+{
     "169206": { # automatically generated groupings show up here
         "name": "Assignments",
         "weight": 0.0, # if weight is zero, everything will be weighted equally
