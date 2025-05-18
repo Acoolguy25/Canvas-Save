@@ -1,5 +1,5 @@
 # Abstract
-This module saves all documents, feedback, and grading statistics (i.e. class averages) from the Canvas website using the [canvasapi](https://github.com/ucfopen/canvasapi) module to nested folders in the working directory.
+This module saves all documents, feedback, and grading statistics (i.e. class averages) from the Canvas website using the [canvasapi](https://github.com/ucfopen/canvasapi) module to nested folders in the working directory. It only requires student authentication as it was made for (and by) a student.
 # Getting Started
 1) Install [canvasapi](https://github.com/ucfopen/canvasapi) module: ```pip install canvasapi```
 2) Enter your canvas url in the ```canvas_url``` field. This should be the top level url of canvas url. For example, Illinois has [https://canvas.illinois.edu/](url). Do not include anything else.
