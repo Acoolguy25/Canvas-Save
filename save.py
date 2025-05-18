@@ -42,7 +42,7 @@ canvStats.__init__(canvasSettings["override_alias"])
 # courses: Iterator[Course] = canvas.get_courses()
 for idx, course in enumerate(canvas.get_courses()):
     if ("name" in dir(course) and course.name.lower().startswith(termAndYear)):
-        if ("ECE 391" in course.name):
+        if (True):
             course_name = getCourseName(course.name)
             course_path = f"{rootPath}/{course_name.replace(' ','')}"
             os.makedirs(course_path, exist_ok=True)

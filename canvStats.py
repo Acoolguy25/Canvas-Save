@@ -83,7 +83,7 @@ def identifyAssignment(curRuleSet, name, id):
         if not data["active"]:
             continue
         for val in cur_alias:
-            if (val.lower() in name.lower()):
+            if (val.lower() in name.lower() and (val != 'exam' or not "final" in name)):
                 assert(not selRuleSet) # Make sure that it doesn't fit into 2+ categories
                 selRuleSet = data
     if (not selRuleSet):
